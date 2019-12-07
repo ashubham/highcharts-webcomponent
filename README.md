@@ -2,9 +2,7 @@
     
 </p>
 
-# Highcharts WebComponent
-
-<img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" width="200" align="right" alt="highcharts-wc" />
+# Highcharts WebComponent <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" width="200" align="right" alt="highcharts-wc" />
 
 [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
 
