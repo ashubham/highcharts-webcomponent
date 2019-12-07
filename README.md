@@ -81,7 +81,7 @@ componentDidMount() {
 </highcharts-chart>
 ```
 
-## Option Details
+## Properties & Events
 
 ### Properties
 
