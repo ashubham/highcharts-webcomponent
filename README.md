@@ -2,7 +2,7 @@
     
 </p>
 
-# Highcharts WebComponent <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc-2.png" width="300" align="right" alt="highcharts-wc" />
+# Highcharts WebComponent <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc-2.png" align="right" alt="highcharts-wc" />
 
 [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
 
@@ -12,7 +12,6 @@ Highcharts WebComponent wrapper, implemented using Lit Element.
 
 ## Installing
 
-Get the package from npm into your app:
 ```
 npm install highcharts-webcomponent
 ```
@@ -20,6 +19,11 @@ If Highcharts is not already installed, get the package with Highcharts:
 ```
 npm install highcharts highcharts-webcomponent
 ```
+
+## Demo
+
+Live Example: https://webcomponents.dev/edit/ObQbCXjw2znEukL93AU3
+
 
 ## Using
 
@@ -106,9 +110,3 @@ componentDidMount() {
 | Event  | Description                                      |
 |--------|--------------------------------------------------|
 | `load` | Event fired after the chart is created. The `detail` arg will hold the created chart |
-
-
-## Demo
-
-Live Example: https://webcomponents.dev/edit/ObQbCXjw2znEukL93AU3
-
