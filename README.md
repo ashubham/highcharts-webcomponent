@@ -106,3 +106,8 @@ componentDidMount() {
 | Event  | Description                                      |
 |--------|--------------------------------------------------|
 | `load` | Event fired after the chart is created. The `detail` arg will hold the created chart |
+
+### Copyright
+- The Highcharts logo is a property of Highsoft AS, Norway.
+- The Webcomponents logo is a property of Webcomponents.org
+
