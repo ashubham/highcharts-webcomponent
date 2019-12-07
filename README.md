@@ -6,8 +6,6 @@ Highcharts WebComponent wrapper.
 - Usable with any Framework.
 - Implemented using Lit Element.
 
-<br/>
-
 ## Installing
 
 ```
