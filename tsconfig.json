@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "removeComments": false,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "lib" : ["esnext", "es2018", "es2017", "es2016", "es5", "es6", "dom"],
+        "downlevelIteration": true,
+        "outDir": "build",
+        "alwaysStrict": true,
+        "declaration": true,
+        "incremental": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        ".cache"
+    ],
+    "compileOnSave": true
+}

@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "highcharts-chart",
+      "jsDoc": "/**\n * @element highcharts-chart\n * \n * @fires load - Event fired after the chart is created. The `detail` arg will hold the created chart\n */",
+      "attributes": [
+        {
+          "name": "constructorType",
+          "description": "String for constructor method. Official constructors:\n  - 'chart' for Highcharts charts\n  - 'stockChart' for Highstock charts\n  - 'mapChart' for Highmaps charts\n  - 'ganttChart' for Gantt charts",
+          "jsDoc": "/**\n     * String for constructor method. Official constructors:\n     *  - 'chart' for Highcharts charts\n     *  - 'stockChart' for Highstock charts\n     *  - 'mapChart' for Highmaps charts\n     *  - 'ganttChart' for Gantt charts\n     */",
+          "type": "HighchartsConstructorType"
+        },
+        {
+          "name": "allowChartUpdate",
+          "description": "This wrapper uses chart.update() method to apply new options\nto the chart when changing the parent component.\nThis option allow to turn off the updating.",
+          "jsDoc": "/**\n     * This wrapper uses chart.update() method to apply new options\n     * to the chart when changing the parent component.\n     * This option allow to turn off the updating.\n     */",
+          "type": "boolean"
+        },
+        {
+          "name": "immutable",
+          "description": "Reinitialises the chart on prop update (as oppose to chart.update())\nuseful in some cases but slower than a regular update.",
+          "jsDoc": "/**\n     * Reinitialises the chart on prop update (as oppose to chart.update())\n     * useful in some cases but slower than a regular update.\n     */",
+          "type": "boolean"
+        }
+      ],
+      "properties": [
+        {
+          "name": "constructorType",
+          "attribute": "constructorType",
+          "description": "String for constructor method. Official constructors:\n  - 'chart' for Highcharts charts\n  - 'stockChart' for Highstock charts\n  - 'mapChart' for Highmaps charts\n  - 'ganttChart' for Gantt charts",
+          "jsDoc": "/**\n     * String for constructor method. Official constructors:\n     *  - 'chart' for Highcharts charts\n     *  - 'stockChart' for Highstock charts\n     *  - 'mapChart' for Highmaps charts\n     *  - 'ganttChart' for Gantt charts\n     */",
+          "type": "HighchartsConstructorType"
+        },
+        {
+          "name": "highcharts",
+          "description": "Used to pass the Highcharts instance after modules are initialized.\nIf not set the component will try to get the Highcharts from window.",
+          "jsDoc": "/**\n     * Used to pass the Highcharts instance after modules are initialized.\n     * If not set the component will try to get the Highcharts from window.\n     */",
+          "type": "typeof import(\"/Users/ashish.shubham/hack/highcharts-webcomponent/node_modules/highcharts/highcharts\")"
+        },
+        {
+          "name": "options",
+          "description": "Highcharts chart configuration object.\nPlease refer to the Highcharts (API documentation)[https://api.highcharts.com/highcharts/].",
+          "jsDoc": "/**\n     * Highcharts chart configuration object.\n     * Please refer to the Highcharts (API documentation)[https://api.highcharts.com/highcharts/].\n     */",
+          "type": "Object"
+        },
+        {
+          "name": "allowChartUpdate",
+          "attribute": "allowChartUpdate",
+          "description": "This wrapper uses chart.update() method to apply new options\nto the chart when changing the parent component.\nThis option allow to turn off the updating.",
+          "jsDoc": "/**\n     * This wrapper uses chart.update() method to apply new options\n     * to the chart when changing the parent component.\n     * This option allow to turn off the updating.\n     */",
+          "type": "boolean"
+        },
+        {
+          "name": "immutable",
+          "attribute": "immutable",
+          "description": "Reinitialises the chart on prop update (as oppose to chart.update())\nuseful in some cases but slower than a regular update.",
+          "jsDoc": "/**\n     * Reinitialises the chart on prop update (as oppose to chart.update())\n     * useful in some cases but slower than a regular update.\n     */",
+          "type": "boolean"
+        },
+        {
+          "name": "updateArgs",
+          "description": "Array of update()'s function optional arguments.\nParameters should be defined in the same order like in\nnative Highcharts function: [redraw, oneToOne, animation]. \n(Here)[https://api.highcharts.com/class-reference/Highcharts.Chart#update] is a more specific description of the parameters.",
+          "jsDoc": "/**\n     * Array of update()'s function optional arguments.\n     * Parameters should be defined in the same order like in\n     * native Highcharts function: [redraw, oneToOne, animation]. \n     * (Here)[https://api.highcharts.com/class-reference/Highcharts.Chart#update] is a more specific description of the parameters.\n     */",
+          "type": "[boolean, boolean, boolean]"
+        }
+      ],
+      "events": [
+        {
+          "name": "load",
+          "description": "Event fired after the chart is created. The `detail` arg will hold the created chart"
+        }
+      ]
+    }
+  ]
+}
