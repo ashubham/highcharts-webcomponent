@@ -42,7 +42,7 @@ const options = {
 - LitHTML
 ```js
 html`
-<highcharts-chart .options=${options}> @load=${this.onChartLoad}
+<highcharts-chart .options=${options} @load=${this.onChartLoad}>
 </highcharts-chart>`
 ```
 
@@ -103,5 +103,5 @@ componentDidMount() {
 
 ## Demo
 
-Live Example: https://webcomponents.dev/edit/OjtqsMqsy5UYZIN8bZfX
+Live Example: https://webcomponents.dev/edit/ObQbCXjw2znEukL93AU3
 

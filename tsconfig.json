@@ -17,8 +17,7 @@
         "downlevelIteration": true,
         "outDir": "build",
         "alwaysStrict": true,
-        "declaration": true,
-        "incremental": true
+        "declaration": true
     },
     "include": [
         "src/**/*.ts"
