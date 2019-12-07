@@ -1,6 +1,6 @@
 {
   "name": "highcharts-webcomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal highcharts web component wrapper.",
   "main": "build/highcharts-wc.js",
   "module": "build/highcharts-wc.js",
