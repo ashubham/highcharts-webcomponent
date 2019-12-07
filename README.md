@@ -1,11 +1,16 @@
-<p align="center">
-    <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" width="200" alt="highcharts-wc" />
+<p align="right">
+    
 </p>
 
-# Highcharts WebComponent [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
+# Highcharts WebComponent
+
+<img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" width="200" align="right" alt="highcharts-wc" />
+
+[![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
 
 Highcharts WebComponent wrapper, implemented using Lit Element.
 
+<br/>
 
 ## Installing
 
