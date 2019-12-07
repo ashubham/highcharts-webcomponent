@@ -2,7 +2,9 @@
 
 [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
 
-Highcharts WebComponent wrapper, implemented using Lit Element.
+Highcharts WebComponent wrapper.
+- Usable with any Framework.
+- Implemented using Lit Element.
 
 <br/>
 
