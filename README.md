@@ -1,7 +1,3 @@
-<p align="right">
-    
-</p>
-
 # Highcharts WebComponent <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc-2.png" align="right" alt="highcharts-wc" />
 
 [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
