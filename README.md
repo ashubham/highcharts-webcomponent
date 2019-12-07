@@ -25,7 +25,7 @@ import 'highcharts-webcomponent';
 
 OR
 
-<script type="module" src="node_modules/highcharts-webcomponent/dist/highcharts-wc.js"></script>
+<script type="module" src="node_modules/highcharts-webcomponent/build/highcharts-wc.js"></script>
 ```
 
 2. Start using it with any framework
