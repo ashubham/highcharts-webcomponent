@@ -1,9 +1,11 @@
-# Highcharts WebComponent
-[![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
+<p align="center">
+    <img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" width="200" alt="highcharts-wc" />
+</p>
 
-<img src="https://github.com/ashubham/highcharts-webcomponent/raw/master/assets/highcharts-wc.png" align="right" alt="w3c-keys" />
+# Highcharts WebComponent [![npm version](https://badge.fury.io/js/highcharts-webcomponent.svg)](https://badge.fury.io/js/highcharts-webcomponent)
 
-Minimal highcharts WebComponent, implemented using Lit Element.
+Highcharts WebComponent wrapper, implemented using Lit Element.
+
 
 ## Installing
 
